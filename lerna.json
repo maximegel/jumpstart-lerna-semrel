@@ -1,5 +1,4 @@
 {
-
   "packages": ["packages/*"],
   "version": "independent",
   "npmClient": "yarn",
@@ -10,7 +9,6 @@
     },
     "version": {
       "allowBranch": "main",
-      "coventionalCommits": true,
       "createRelease": true,
       "message": "chore(release): publish %s"
     }
