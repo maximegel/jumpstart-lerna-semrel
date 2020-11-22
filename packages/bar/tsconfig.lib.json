@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "paths": {
+      "@jumpstart-lerna-semrel/foo": ["../foo/src"]
+    },
+    "baseUrl": "./",
+  },
+  "include": ["src/**/*.ts"],
+  "references": [{"path": "../foo"}]
+}

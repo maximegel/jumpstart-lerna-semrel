@@ -1,0 +1,13 @@
+{
+  "name": "@jumpstart-lerna-semrel/bar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --project tsconfig.lib.json"
+  },
+  "dependencies": {
+    "@jumpstart-lerna-semrel/foo": "^1.0.0"
+  }
+}
