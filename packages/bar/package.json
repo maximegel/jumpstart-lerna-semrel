@@ -2,8 +2,12 @@
   "name": "@jumpstart-lerna-semrel/bar",
   "version": "1.1.4",
   "description": "",
-  "main": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "bin": {
+    "bar": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc --project tsconfig.lib.json"
   },

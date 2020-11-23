@@ -1,3 +1,5 @@
-import { hello } from '@jumpstart-lerna-semrel/foo';
+#!/usr/bin/env node
 
-console.log(hello('bar'));
+import { hello } from './hello';
+
+hello();
