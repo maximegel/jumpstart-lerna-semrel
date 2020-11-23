@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/maximegel/jumpstart-lerna-semrel/compare/@jumpstart-lerna-semrel/foo@1.2.0...@jumpstart-lerna-semrel/foo@1.3.0) (2020-11-23)
+
+### Features
+
+- bump version to 1.3.0 ([fb06fbc](https://github.com/maximegel/jumpstart-lerna-semrel/commit/fb06fbc4a8038797b7e7af10e9a31008fdb66f66))
+
 # [1.2.0](https://github.com/maximegel/jumpstart-lerna-semrel/compare/@jumpstart-lerna-semrel/foo@1.1.0...@jumpstart-lerna-semrel/foo@1.2.0) (2020-11-23)
 
 ### Features
