@@ -40,6 +40,7 @@
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
   "files.associations": {
+    ".czrc": "json",
     ".commitlintrc": "json",
     ".huskyrc": "json",
     ".lintstagedrc": "json"

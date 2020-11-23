@@ -17,13 +17,12 @@
     "format:check": "prettier **/*.{js,jsx,ts,tsx,md,html,css}",
     "lint": "eslint . --max-warnings=0",
     "lint:fix": "yarn lint --fix",
-    "release": "dotenv -- lerna publish",
-    "release:version": "lerna version --conventional-commits --create-release=github -m='chore(release): publish %s'",
-    "release:publish": "lerna publish --registry=http://0.0.0.0:4873"
+    "release": "dotenv -- lerna publish"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
+    "@commitlint/config-lerna-scopes": "^11.0.0",
     "@typescript-eslint/eslint-plugin": "^4.8.1",
     "@typescript-eslint/parser": "^4.8.1",
     "commitizen": "^4.2.2",
@@ -31,16 +30,12 @@
     "dotenv-cli": "^4.0.0",
     "eslint": "^7.14.0",
     "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-only-warn": "^1.0.2",
     "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.3.0",
     "lerna": "^3.22.1",
     "lint-staged": "^10.5.1",
     "prettier": "^2.2.0",
     "typescript": "^4.1.2"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   }
 }
