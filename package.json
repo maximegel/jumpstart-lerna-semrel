@@ -17,7 +17,7 @@
     "format:check": "prettier **/*.{js,jsx,ts,tsx,md,html,css}",
     "lint": "eslint . --max-warnings=0",
     "lint:fix": "yarn lint --fix",
-    "release": "yarn release:version && yarn release:publish",
+    "release": "dotenv -- lerna publish",
     "release:version": "lerna version --conventional-commits --create-release=github -m='chore(release): publish %s'",
     "release:publish": "lerna publish --registry=http://0.0.0.0:4873"
   },
