@@ -10,12 +10,16 @@
     "packages/*"
   ],
   "scripts": {
-    "cm": "cz",
     "build": "lerna run build",
+    "cm": "cz",
+    "cm:amend": "git commit --amend --no-edit",
+    "format": "yarn format:check --write",
+    "format:check": "prettier **/*.{js,jsx,ts,tsx,md,html,css}",
     "lint": "eslint . --max-warnings=0",
     "lint:fix": "yarn lint --fix",
-    "format": "yarn format:check --write",
-    "format:check": "prettier **/*.{js,jsx,ts,tsx,md,html,css}"
+    "release": "yarn release:version && yarn release:publish",
+    "release:version": "lerna version --conventional-commits --create-release=github -m='chore(release): publish %s'",
+    "release:publish": "lerna publish --registry=http://0.0.0.0:4873"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
@@ -24,6 +28,7 @@
     "@typescript-eslint/parser": "^4.8.1",
     "commitizen": "^4.2.2",
     "cz-conventional-changelog": "^3.3.0",
+    "dotenv-cli": "^4.0.0",
     "eslint": "^7.14.0",
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-prettier": "^3.1.4",
