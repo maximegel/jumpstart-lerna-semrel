@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.1](https://github.com/maximegel/jumpstart-lerna-semrel/compare/@jumpstart-lerna-semrel/foo@2.0.0...@jumpstart-lerna-semrel/foo@2.0.1) (2020-11-23)
+
+### Bug Fixes
+
+- **bar:** add bin, ignore `src` folders ([d8783d6](https://github.com/maximegel/jumpstart-lerna-semrel/commit/d8783d644d975b8ff60ab4ec640e9e9d9396f4cb))
+
 # [2.0.0](https://github.com/maximegel/jumpstart-lerna-semrel/compare/@jumpstart-lerna-semrel/foo@1.4.0...@jumpstart-lerna-semrel/foo@2.0.0) (2020-11-23)
 
 ### Features
