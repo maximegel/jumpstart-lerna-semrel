@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.1](https://github.com/maximegel/jumpstart-lerna-semrel/compare/@jumpstart-lerna-semrel/bar@1.1.0...@jumpstart-lerna-semrel/bar@1.1.1) (2020-11-23)
+
+**Note:** Version bump only for package @jumpstart-lerna-semrel/bar
+
 # 1.1.0 (2020-11-22)
 
 ### Features
